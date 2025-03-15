@@ -15,4 +15,4 @@ def total_salary(path):
     print(path.read_text()) 
     print("Exists:", path.exists()) 
 
-total_salary("task1/salary.txt")
+total_salary("salary.txt")
