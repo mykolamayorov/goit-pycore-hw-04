@@ -14,7 +14,7 @@ def total_salary(path: str) -> tuple:
         with open(path, 'r', encoding='utf-8') as file:
 
             # Make list of employers
-            employer_list = file.read().split('\n')
+            employer_list = file.read().splitlines()
 
             # Empty list with salaries
             salary_list = []
